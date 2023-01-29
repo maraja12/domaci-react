@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { FaAngleDoubleRight } from 'react-icons/fa';
 import { jobs } from '../data/experience';
+import './Experience.css';
 
 const Experience = () => {
   const [value, setValue] = useState(0);
