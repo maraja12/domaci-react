@@ -1,6 +1,7 @@
 import React from 'react';
 import faqs from '../data/questions';
 import SingleQuestion from '../components/Question';
+import './Faq.css';
 
 const Faq = () => {
   const questions = faqs;
